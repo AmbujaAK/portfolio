@@ -21,16 +21,16 @@ const AIRTABLE_SVG = (cls: string) => <svg viewBox="0 0 24 24" className={cls} f
 function ReelCard({ reelId, caption }: { reelId: string; caption: string }) {
   return (
     <a
-      href={`https://www.instagram.com/santifer/reel/${reelId}/`}
+      href={`https://www.instagram.com/ambuj/reel/${reelId}/`}
       target="_blank"
       rel="noopener noreferrer"
       className="block rounded-xl overflow-hidden border border-border bg-card group"
     >
       <div className="flex items-center gap-2 px-3 py-2.5">
         <div className="w-7 h-7 rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 p-[1.5px] shrink-0">
-          <img src="/business-os/ig-avatar.jpg" alt="santifer" width={100} height={100} className="w-full h-full rounded-full object-cover" />
+          <img src="/business-os/ig-avatar.jpg" alt="ambuj" width={100} height={100} className="w-full h-full rounded-full object-cover" />
         </div>
-        <p className="text-xs font-semibold text-foreground leading-tight flex-1 min-w-0">santifer</p>
+        <p className="text-xs font-semibold text-foreground leading-tight flex-1 min-w-0">ambuj</p>
         <ChevronRight className="w-4 h-4 text-muted-foreground shrink-0" />
       </div>
       <div className="relative overflow-hidden aspect-[9/16]">
@@ -78,7 +78,7 @@ export default function BusinessOS({ lang = 'en' }: { lang?: Lang }) {
     altSlug: t.altSlug,
     title: t.seo.title,
     description: t.seo.description,
-    image: 'https://santifer.io/business-os/og-business-os.webp',
+    image: 'https://ambuj.co/business-os/og-business-os.webp',
     publishedTime: '2026-02-25',
     modifiedTime: '2026-03-06',
     articleTags: 'Business OS,Airtable,n8n,ERP,CRM,automation,phone repair',
@@ -110,8 +110,8 @@ export default function BusinessOS({ lang = 'en' }: { lang?: Lang }) {
       <Photo2
         editorId="hero-storefront"
         items={[
-          { src: '/business-os/hero-storefront.webp', alt: lang === 'es' ? 'Fachada de Santifer iRepair — tienda de reparación de móviles en Madrid' : 'Santifer iRepair storefront — phone repair shop in Madrid', width: 900, height: 1200 },
-          { src: '/business-os/hero-storefront-urban.webp', alt: lang === 'es' ? 'Santifer iRepair de noche — vista urbana con la tienda iluminada' : 'Santifer iRepair at night — urban view with the shop lit up', width: 800, height: 1067 },
+          { src: '/business-os/hero-storefront.webp', alt: lang === 'es' ? 'Fachada de Ambuj iRepair — tienda de reparación de móviles en Madrid' : 'Ambuj iRepair storefront — phone repair shop in Madrid', width: 900, height: 1200 },
+          { src: '/business-os/hero-storefront-urban.webp', alt: lang === 'es' ? 'Ambuj iRepair de noche — vista urbana con la tienda iluminada' : 'Ambuj iRepair at night — urban view with the shop lit up', width: 800, height: 1067 },
         ]}
         className="mb-8"
       />
@@ -132,8 +132,8 @@ export default function BusinessOS({ lang = 'en' }: { lang?: Lang }) {
         <Photo2
           editorId="day-counter"
           items={[
-            { src: '/business-os/counter-organized-front.webp', alt: lang === 'es' ? 'Interior de Santifer iRepair — lo que ve el cliente al entrar: mostrador con iMac, logo y lámpara esférica' : 'Santifer iRepair interior — what the customer sees walking in: counter with iMac, logo and spherical lamp', width: 360, height: 480 },
-            { src: '/business-os/after-elevator-lamp.webp', alt: lang === 'es' ? 'Montacargas de madera junto a lámpara esférica y logo Santifer — conexión entre mostrador y taller' : 'Wooden dumbwaiter next to spherical lamp and Santifer logo — connection between counter and workshop', width: 360, height: 480 },
+            { src: '/business-os/counter-organized-front.webp', alt: lang === 'es' ? 'Interior de Ambuj iRepair — lo que ve el cliente al entrar: mostrador con iMac, logo y lámpara esférica' : 'Ambuj iRepair interior — what the customer sees walking in: counter with iMac, logo and spherical lamp', width: 360, height: 480 },
+            { src: '/business-os/after-elevator-lamp.webp', alt: lang === 'es' ? 'Montacargas de madera junto a lámpara esférica y logo Ambuj — conexión entre mostrador y taller' : 'Wooden dumbwaiter next to spherical lamp and Ambuj logo — connection between counter and workshop', width: 360, height: 480 },
           ]}
           caption={lang === 'es' ? 'Lo que ve el cliente al entrar / El montacargas que conecta mostrador y taller' : 'What the customer sees walking in / The dumbwaiter connecting counter and workshop'}
         />
@@ -225,7 +225,7 @@ export default function BusinessOS({ lang = 'en' }: { lang?: Lang }) {
               {idx === 0 && (
                 <Photo2 editorId="repair-counter-watch"
                   items={[
-                    { src: '/business-os/after-counter-pov.webp', alt: lang === 'es' ? 'Mostrador de Santifer desde el punto de vista del empleado — iMac con Airtable abierto, citas programadas' : 'Santifer counter from employee POV — iMac with Airtable open, appointments scheduled', width: 800, height: 1067 },
+                    { src: '/business-os/after-counter-pov.webp', alt: lang === 'es' ? 'Mostrador de Ambuj desde el punto de vista del empleado — iMac con Airtable abierto, citas programadas' : 'Ambuj counter from employee POV — iMac with Airtable open, appointments scheduled', width: 800, height: 1067 },
                     { src: '/business-os/after-apple-watch-booking.webp', alt: lang === 'es' ? 'Apple Watch del técnico mostrando la próxima cita' : 'Technician Apple Watch showing next appointment', width: 800, height: 1067 },
                   ]}
                   caption={lang === 'es' ? 'Planta baja: citas en Airtable / Planta alta: carga de trabajo en la muñeca' : 'Ground floor: appointments in Airtable / Upstairs: workload on the wrist'}
@@ -358,7 +358,7 @@ export default function BusinessOS({ lang = 'en' }: { lang?: Lang }) {
                         </p>
                         <div className="bg-primary/5 border-l-2 border-primary/30 pl-3 py-2">
                           <p className="text-xs text-muted-foreground mb-1 font-medium">
-                            {lang === 'es' ? 'Respuesta de Santifer iRepair:' : 'Santifer iRepair response:'}
+                            {lang === 'es' ? 'Respuesta de Ambuj iRepair:' : 'Ambuj iRepair response:'}
                           </p>
                           <p className="text-xs text-muted-foreground">
                             {lang === 'es'
@@ -386,7 +386,7 @@ export default function BusinessOS({ lang = 'en' }: { lang?: Lang }) {
                         </p>
                         <div className="bg-primary/5 border-l-2 border-primary/30 pl-3 py-2">
                           <p className="text-xs text-muted-foreground mb-1 font-medium">
-                            {lang === 'es' ? 'Respuesta de Santifer iRepair:' : 'Santifer iRepair response:'}
+                            {lang === 'es' ? 'Respuesta de Ambuj iRepair:' : 'Ambuj iRepair response:'}
                           </p>
                           <p className="text-xs text-muted-foreground">
                             {lang === 'es'
@@ -409,7 +409,7 @@ export default function BusinessOS({ lang = 'en' }: { lang?: Lang }) {
           heading={t.sections.dayInLife.pseoCta.heading}
           body={t.sections.dayInLife.pseoCta.body}
           ctaLabel={t.sections.dayInLife.pseoCta.label}
-          ctaHref={lang === 'es' ? 'mailto:hola@santifer.io?subject=Programmatic SEO' : 'mailto:hi@santifer.io?subject=Programmatic SEO'}
+          ctaHref={lang === 'es' ? 'mailto:hola@ambuj.co?subject=Programmatic SEO' : 'mailto:hi@ambuj.co?subject=Programmatic SEO'}
         />
 
         {/* Cross-Cutting Capabilities */}
@@ -593,7 +593,7 @@ export default function BusinessOS({ lang = 'en' }: { lang?: Lang }) {
         <Photo2
           editorId="after-store-orders"
           items={[
-            { src: '/business-os/after-store-interior.webp', alt: lang === 'es' ? 'Interior de Santifer iRepair' : 'Santifer iRepair interior', width: 1200, height: 900 },
+            { src: '/business-os/after-store-interior.webp', alt: lang === 'es' ? 'Interior de Ambuj iRepair' : 'Ambuj iRepair interior', width: 1200, height: 900 },
             { src: '/business-os/after-orders-organized.webp', alt: lang === 'es' ? 'Órdenes de trabajo organizadas' : 'Organized work orders', width: 1200, height: 900 },
           ]}
           caption={lang === 'es' ? 'Un iMac, un sistema / Envíos COVID organizados con Airtable' : 'One iMac, one system / COVID shipments organized with Airtable'}
@@ -655,7 +655,7 @@ export default function BusinessOS({ lang = 'en' }: { lang?: Lang }) {
           heading={t.cta.heading}
           body={t.cta.body}
           ctaLabel={t.cta.label}
-          ctaHref="mailto:hola@santifer.io?subject=Business OS Architecture"
+          ctaHref="mailto:hola@ambuj.co?subject=Business OS Architecture"
         />
 
         {/* FAQ */}

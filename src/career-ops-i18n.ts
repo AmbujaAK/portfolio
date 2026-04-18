@@ -248,7 +248,7 @@ export const careerOpsContent = {
         heading: 'Explora el Código',
         body: 'Career-Ops es open source. Revisa la arquitectura, los skill files, y el scoring framework en GitHub. O abre el chat y pregúntame cómo lo construí.',
         ctaLabel: 'Ver en GitHub',
-        ctaHref: 'https://github.com/santifer/career-ops',
+        ctaHref: 'https://github.com/ambuj/career-ops',
       },
     },
     faq: {
@@ -276,7 +276,7 @@ export const careerOpsContent = {
         },
         {
           q: 'Es replicable?',
-          a: 'Sí — el código es open source en GitHub (github.com/santifer/career-ops). Requiere Claude Code con acceso a Playwright. Los skill files definen la lógica de cada modo. 30K+ personas ya lo han visto, forkeado o adaptado.',
+          a: 'Sí — el código es open source en GitHub (github.com/ambuj/career-ops). Requiere Claude Code con acceso a Playwright. Los skill files definen la lógica de cada modo. 30K+ personas ya lo han visto, forkeado o adaptado.',
         },
       ],
     },
@@ -528,7 +528,7 @@ export const careerOpsContent = {
         heading: 'Explore the Code',
         body: 'Career-Ops is open source. Check the architecture, skill files, and scoring framework on GitHub. Or open the chat and ask me how I built it.',
         ctaLabel: 'View on GitHub',
-        ctaHref: 'https://github.com/santifer/career-ops',
+        ctaHref: 'https://github.com/ambuj/career-ops',
       },
     },
     faq: {
@@ -556,7 +556,7 @@ export const careerOpsContent = {
         },
         {
           q: 'Is it replicable?',
-          a: 'Yes — the code is open source on GitHub (github.com/santifer/career-ops). Requires Claude Code with Playwright access. Skill files define the logic for each mode. 30K+ people have already seen, forked, or adapted it.',
+          a: 'Yes — the code is open source on GitHub (github.com/ambuj/career-ops). Requires Claude Code with Playwright access. Skill files define the logic for each mode. 30K+ people have already seen, forked, or adapted it.',
         },
       ],
     },

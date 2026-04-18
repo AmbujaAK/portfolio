@@ -1,13 +1,13 @@
 export const seo = {
   es: {
     title:
-      'santifer | Builder of Career-Ops · Agentes IA · Open Source',
+      'ambuj | Builder of Career-Ops · Agentes IA · Open Source',
     description:
       'Creador de Career-Ops (31.0K+ estrellas en GitHub). Construye sistemas IA en producción. Head of Applied AI. De automatizar un negocio de 16 años a herramientas open source usadas por miles.',
   },
   en: {
     title:
-      'santifer | Builder of Career-Ops · AI Agents · Open Source',
+      'ambuj | Builder of Career-Ops · AI Agents · Open Source',
     description:
       'Creator of Career-Ops (31.0K+ GitHub stars). Building AI systems that run in production. Head of Applied AI. From automating a 16-year business to open source tools used by thousands.',
   },
@@ -18,7 +18,7 @@ export const translations = {
     greeting: 'que construye sistemas',
     greetingRoles: ['Open Source Builder', 'Head of Applied AI', 'Creador de Career-Ops'],
     pillLabels: ['Builder', 'Applied AI'],
-    email: 'hola@santifer.io',
+    email: 'hola@ambuj.co',
     role: 'AI systems',
     story: {
       context: '+15 años construyendo+ todo desde cero.',
@@ -30,7 +30,7 @@ export const translations = {
           '*Construir* +sistemas que duran+.',
         ],
       ],
-      why: 'En Santifer iRepair automaticé todo lo que pude: desde un agente de IA que atendía el 90% de los clientes hasta un sistema operativo que orquestaba 12 bases de datos.',
+      why: 'En Ambuj iRepair automaticé todo lo que pude: desde un agente de IA que atendía el 90% de los clientes hasta un sistema operativo que orquestaba 12 bases de datos.',
       seeking: [
         'Siento que esto es sólo el principio.',
         'Equipos grandes. Retos difíciles. End-to-end.',
@@ -149,7 +149,7 @@ export const translations = {
     },
     projects: {
       title: 'Proyectos',
-      githubLink: 'github.com/santifer',
+      githubLink: 'github.com/ambuj',
       viewCode: 'Ver código',
       viewPrototype: 'Ver prototipo',
       items: [
@@ -159,7 +159,7 @@ export const translations = {
           badgeBuilding: 'En desarrollo',
           desc: 'Servicio Python + FastAPI para ingestión de contenido con LLM y generación de resúmenes. Prototipo ganador, ahora en producción con mejores prácticas empresariales.',
           tech: ['Python', 'FastAPI', 'OpenAI API', 'LLMOps'],
-          link: 'contentdigest.santifer.io',
+          link: 'contentdigest.ambuj.co',
         },
         {
           title: 'Life OS',
@@ -175,19 +175,19 @@ export const translations = {
           badgeBuilding: '',
           desc: 'Pipeline HITL de búsqueda de empleo: la IA evalúa ofertas periódicamente en 10 dimensiones (scoring A-F), genera CVs PDF optimizados para ATS por oferta, y pre-rellena aplicaciones — yo reviso, filtro y decido cuáles enviar. Procesamiento batch de 48+ ofertas en paralelo (arquitectura conductor + workers), escaneo de portales con deduplicación, y framing adaptativo por arquetipo de rol. Integrado con **Life OS** como skill especializado.',
           tech: ['Claude Code', 'Batch Architecture', 'WebSearch', 'HITL Design'],
-          link: 'github.com/santifer/career-ops',
+          link: 'github.com/ambuj/career-ops',
           stars: '31.0K',
           forks: '6.1K',
           caseStudyUrl: '/career-ops',
           caseStudyLabel: 'Leer: AI Job Search multi-agente',
         },
         {
-          title: 'santifer.io',
+          title: 'ambuj.co',
           badge: 'Este Portfolio',
           badgeBuilding: '',
           desc: 'CV interactivo con SDLC aumentado con IA. Construido con **Claudeable**, monitorizado con **Claude Pulse**, animaciones debuggeadas con **Claude Eye**. Prerender SSR, i18n bilingüe y SEO automatizado.',
           tech: ['React 19', 'TypeScript', 'Tailwind', 'Vite', 'Motion', 'Vercel'],
-          link: 'github.com/santifer/cv-santiago',
+          link: 'github.com/ambuj/cv-santiago',
           stars: '288',
           forks: '113',
         },
@@ -207,7 +207,7 @@ export const translations = {
           badgeBuilding: '',
           desc: 'Plugin SwiftBar para monitorización en tiempo real del uso de Claude Code en macOS. Métricas de consumo, predicción de rate limits, y consejos contextuales.',
           tech: ['Bash', 'SwiftBar', 'Anthropic API', 'jq'],
-          link: 'github.com/santifer/claude-pulse',
+          link: 'github.com/ambuj/claude-pulse',
           stars: '3',
           isDependency: true,
           dependencyRole: 'monitoring',
@@ -218,7 +218,7 @@ export const translations = {
           badgeBuilding: '',
           desc: 'CLI que analiza videos de animaciones web frame por frame con Claude Vision. Detecta desyncs en transiciones CSS y genera reportes con timestamps exactos.',
           tech: ['Node.js', 'TypeScript', 'Claude Vision', 'FFmpeg'],
-          link: 'github.com/santifer/claude-eye',
+          link: 'github.com/ambuj/claude-eye',
           isDependency: true,
           dependencyRole: 'animations',
         },
@@ -228,7 +228,7 @@ export const translations = {
           badgeBuilding: '',
           desc: 'Metaproyecto de Claude Code para desarrollo web profesional. Skills personalizados, templates y MCPs preconfigurados para crear webs al nivel de Lovable.',
           tech: ['Claude Code', 'React', 'Tailwind', 'shadcn/ui', 'MCP'],
-          link: 'github.com/santifer/claudeable',
+          link: 'github.com/ambuj/claudeable',
           isDependency: true,
           dependencyRole: 'framework',
         },
@@ -238,7 +238,7 @@ export const translations = {
           badgeBuilding: '',
           desc: 'Dashboard de predicción de riesgos para portfolios de proyectos. Modelo ML entrenado con datos sintéticos detecta retrasos antes de que ocurran. Segundo capstone del bootcamp de AI PM de Maven (Marily Nika).',
           tech: ['scikit-learn', 'FastAPI', 'React', 'TypeScript'],
-          link: 'projectos-predict.santifer.io',
+          link: 'projectos-predict.ambuj.co',
         },
       ],
       saPlaybook: {
@@ -289,8 +289,8 @@ export const translations = {
         period: '2026 - Presente',
         desc: 'Construyendo la capa de IA horizontal de la empresa.\nImpulsando la nueva generación de software para PYMEs.',
       },
-      santifer: {
-        company: 'Santifer iRepair',
+      ambuj: {
+        company: 'Ambuj iRepair',
         location: 'Sevilla, España',
         role: 'Fundador & Product Lead (AI Automation)',
         period: '2009 - 2025 · Retail / Servicios B2B-B2C',
@@ -484,7 +484,7 @@ export const translations = {
           hook: 'Alguien acaba de intentar hackear mi chatbot. Y me enteré en 3 segundos.',
           reactions: '300+',
           comments: '50+',
-          url: 'https://www.linkedin.com/posts/santifer_llmops-ai-observability-activity-7421984735024816128-Dpl_',
+          url: 'https://www.linkedin.com/posts/ambuj_llmops-ai-observability-activity-7421984735024816128-Dpl_',
         },
         {
           hook: 'Tu próximo negocio está en este gráfico. Pista: no es la barra grande.',
@@ -499,17 +499,17 @@ export const translations = {
           url: 'https://www.linkedin.com/feed/update/urn:li:activity:7446828799167520768/',
         },
         {
-          hook: 'Acabo de vender mi empresa, Santifer iRepair, tras 16 años (no me he vuelto loco).',
+          hook: 'Acabo de vender mi empresa, Ambuj iRepair, tras 16 años (no me he vuelto loco).',
           reactions: '65+',
           comments: '15+',
-          url: 'https://www.linkedin.com/posts/santifer_opentowork-solutionarchitecture-hyperautomation-activity-7376346077542768640-8brZ',
+          url: 'https://www.linkedin.com/posts/ambuj_opentowork-solutionarchitecture-hyperautomation-activity-7376346077542768640-8brZ',
         },
       ],
     },
     xPost: {
       hook: 'Built this to find my own job. Open sourced it. 12K+ stars in two days.',
       hookLinkPrefix: 'Free: ',
-      hookLinkUrl: 'github.com/santifer/career-ops',
+      hookLinkUrl: 'github.com/ambuj/career-ops',
       quoteAuthor: 'Garry Tan',
       quoteRole: 'CEO, Y Combinator',
       quoteHandle: '@garrytan',
@@ -524,7 +524,7 @@ export const translations = {
       likes: '3.7K',
       views: '518.1K',
       cta: 'Ver en X',
-      url: 'https://x.com/santifer/status/2041403685696053741',
+      url: 'https://x.com/ambuj/status/2041403685696053741',
     },
     redditPosts: [
       {
@@ -602,7 +602,7 @@ export const translations = {
           event: 'Empresarios locales · Sevilla',
           eventUrl: '',
           title: 'Hiperautomatiza tu Pyme',
-          desc: 'Taller sobre hiperautomatización para pymes: orquestación, RPA, IA y gobernanza. Caso práctico: Santifer iRepair.',
+          desc: 'Taller sobre hiperautomatización para pymes: orquestación, RPA, IA y gobernanza. Caso práctico: Ambuj iRepair.',
           pdf: '/slides/Hiperautomatiza tu Pyme (SFVA).pdf',
           featured: false,
         },
@@ -616,7 +616,7 @@ export const translations = {
           org: 'Maven',
           title: 'AI Product Management Bootcamp',
           desc: 'Liderado por Marily Nika (ex-Google PM). AI PRDs, diseño de agentes.',
-          projectLink: 'contentdigest.santifer.io',
+          projectLink: 'contentdigest.ambuj.co',
           projectLabel: 'Proyecto ganador',
         },
         {
@@ -766,14 +766,14 @@ export const translations = {
       languageBannerSwitchPrefix: 'Switch to',
       languageBannerSwitchLang: 'EN',
       languageToggle: 'ES',
-      typingIndicator: 'santifer está escribiendo...',
+      typingIndicator: 'ambuj está escribiendo...',
     },
     chat: {
       placeholder: 'Escribe tu pregunta...',
-      title: 'santifer',
+      title: 'ambuj',
       subtitle: 'Pregúntame sobre mi experiencia',
       greeting:
-        '¡Hola! Soy **@santifer**. Pregúntame lo que quieras: experiencia, proyectos, lo que me mueve.',
+        '¡Hola! Soy **@ambuj**. Pregúntame lo que quieras: experiencia, proyectos, lo que me mueve.',
       error: 'Error al enviar. Inténtalo de nuevo.',
       offline: 'Parece que no hay conexión a internet. Comprueba tu red e inténtalo de nuevo.',
       prompts: [
@@ -821,7 +821,7 @@ export const translations = {
     greeting: 'who builds',
     greetingRoles: ['Open Source Builder', 'Head of Applied AI', 'Career-Ops Creator'],
     pillLabels: ['Builder', 'Applied AI'],
-    email: 'hi@santifer.io',
+    email: 'hi@ambuj.co',
     role: 'AI systems',
     story: {
       context: '+15 years building+ everything from scratch.',
@@ -833,7 +833,7 @@ export const translations = {
           '*Building* +systems that last+.',
         ],
       ],
-      why: 'At Santifer iRepair I automated everything I could: from an AI agent that handled 90% of customers to an operating system orchestrating 12 databases.',
+      why: 'At Ambuj iRepair I automated everything I could: from an AI agent that handled 90% of customers to an operating system orchestrating 12 databases.',
       seeking: [
         'This still feels like day one.',
         'Bigger teams. Harder problems. End-to-end.',
@@ -952,7 +952,7 @@ export const translations = {
     },
     projects: {
       title: 'Projects',
-      githubLink: 'github.com/santifer',
+      githubLink: 'github.com/ambuj',
       viewCode: 'View code',
       viewPrototype: 'View prototype',
       items: [
@@ -962,7 +962,7 @@ export const translations = {
           badgeBuilding: 'Building',
           desc: 'Python + FastAPI service for LLM-powered content ingestion and digest generation. Winning prototype, now in production with enterprise best practices.',
           tech: ['Python', 'FastAPI', 'OpenAI API', 'LLMOps'],
-          link: 'contentdigest.santifer.io',
+          link: 'contentdigest.ambuj.co',
         },
         {
           title: 'Life OS',
@@ -978,19 +978,19 @@ export const translations = {
           badgeBuilding: '',
           desc: "HITL job search pipeline — AI periodically evaluates offers across 10 dimensions (A-F scoring), spins up ATS-optimized PDF resumes per listing, and pre-fills applications. I review, filter, and decide which ones to ship. Batch-processes 48+ offers in parallel (conductor + workers), scans portals with dedup, and adapts narrative framing per role archetype. Plugs into **Life OS** as a specialized skill.",
           tech: ['Claude Code', 'Batch Architecture', 'WebSearch', 'HITL Design'],
-          link: 'github.com/santifer/career-ops',
+          link: 'github.com/ambuj/career-ops',
           stars: '31.0K',
           forks: '6.1K',
           caseStudyUrl: '/career-ops-system',
           caseStudyLabel: 'Case Study: AI Job Search',
         },
         {
-          title: 'santifer.io',
+          title: 'ambuj.co',
           badge: 'This Portfolio',
           badgeBuilding: '',
           desc: 'Interactive CV with AI-augmented SDLC. Built with **Claudeable**, monitored with **Claude Pulse**, animations debugged with **Claude Eye**. SSR prerender, bilingual i18n, and automated SEO.',
           tech: ['React 19', 'TypeScript', 'Tailwind', 'Vite', 'Motion', 'Vercel'],
-          link: 'github.com/santifer/cv-santiago',
+          link: 'github.com/ambuj/cv-santiago',
           stars: '288',
           forks: '113',
         },
@@ -1010,7 +1010,7 @@ export const translations = {
           badgeBuilding: '',
           desc: 'SwiftBar plugin for real-time Claude Code usage monitoring on macOS. Consumption metrics, rate limit predictions, and context-aware tips.',
           tech: ['Bash', 'SwiftBar', 'Anthropic API', 'jq'],
-          link: 'github.com/santifer/claude-pulse',
+          link: 'github.com/ambuj/claude-pulse',
           stars: '3',
           isDependency: true,
           dependencyRole: 'monitoring',
@@ -1021,7 +1021,7 @@ export const translations = {
           badgeBuilding: '',
           desc: 'CLI that analyzes web animation videos frame-by-frame using Claude Vision. Detects CSS transition desyncs and generates reports with exact timestamps.',
           tech: ['Node.js', 'TypeScript', 'Claude Vision', 'FFmpeg'],
-          link: 'github.com/santifer/claude-eye',
+          link: 'github.com/ambuj/claude-eye',
           isDependency: true,
           dependencyRole: 'animations',
         },
@@ -1031,7 +1031,7 @@ export const translations = {
           badgeBuilding: '',
           desc: 'Claude Code meta-project for professional web development. Custom skills, templates and pre-configured MCPs to build Lovable-quality websites.',
           tech: ['Claude Code', 'React', 'Tailwind', 'shadcn/ui', 'MCP'],
-          link: 'github.com/santifer/claudeable',
+          link: 'github.com/ambuj/claudeable',
           isDependency: true,
           dependencyRole: 'framework',
         },
@@ -1041,7 +1041,7 @@ export const translations = {
           badgeBuilding: '',
           desc: 'Risk prediction dashboard for project portfolios. ML model trained on synthetic data flags delays before they happen. Second capstone from Maven AI PM bootcamp (Marily Nika).',
           tech: ['scikit-learn', 'FastAPI', 'React', 'TypeScript'],
-          link: 'projectos-predict.santifer.io',
+          link: 'projectos-predict.ambuj.co',
         },
       ],
       saPlaybook: {
@@ -1092,8 +1092,8 @@ export const translations = {
         period: '2026 - Present',
         desc: 'Building the horizontal AI layer across the company.\nPowering the next generation of software for SMBs.',
       },
-      santifer: {
-        company: 'Santifer iRepair',
+      ambuj: {
+        company: 'Ambuj iRepair',
         location: 'Seville, Spain',
         role: 'Founder & Product Lead (AI Automation)',
         period: '2009 - 2025 · Retail / Services B2B-B2C',
@@ -1283,7 +1283,7 @@ export const translations = {
           hook: 'Someone just tried to hack my chatbot. I found out in 3 seconds.',
           reactions: '300+',
           comments: '50+',
-          url: 'https://www.linkedin.com/posts/santifer_llmops-ai-observability-activity-7421984735024816128-Dpl_',
+          url: 'https://www.linkedin.com/posts/ambuj_llmops-ai-observability-activity-7421984735024816128-Dpl_',
         },
         {
           hook: 'Your next business is in this chart. Hint: it\'s not the big bar.',
@@ -1298,17 +1298,17 @@ export const translations = {
           url: 'https://www.linkedin.com/feed/update/urn:li:activity:7446828799167520768/',
         },
         {
-          hook: "I just sold my company, Santifer iRepair, after 16 years (no, I haven't lost it).",
+          hook: "I just sold my company, Ambuj iRepair, after 16 years (no, I haven't lost it).",
           reactions: '65+',
           comments: '15+',
-          url: 'https://www.linkedin.com/posts/santifer_opentowork-solutionarchitecture-hyperautomation-activity-7376346077542768640-8brZ',
+          url: 'https://www.linkedin.com/posts/ambuj_opentowork-solutionarchitecture-hyperautomation-activity-7376346077542768640-8brZ',
         },
       ],
     },
     xPost: {
       hook: 'Built this to find my own job. Open sourced it. 12K+ stars in two days.',
       hookLinkPrefix: 'Free: ',
-      hookLinkUrl: 'github.com/santifer/career-ops',
+      hookLinkUrl: 'github.com/ambuj/career-ops',
       quoteAuthor: 'Garry Tan',
       quoteRole: 'CEO, Y Combinator',
       quoteHandle: '@garrytan',
@@ -1323,7 +1323,7 @@ export const translations = {
       likes: '3.7K',
       views: '518.1K',
       cta: 'View on X',
-      url: 'https://x.com/santifer/status/2041403685696053741',
+      url: 'https://x.com/ambuj/status/2041403685696053741',
     },
     redditPosts: [
       {
@@ -1401,7 +1401,7 @@ export const translations = {
           event: 'Local entrepreneurs · Seville',
           eventUrl: '',
           title: 'Hiperautomatiza tu Pyme',
-          desc: 'Workshop on hyperautomation for SMEs: orchestration, RPA, AI and governance. Case study: Santifer iRepair.',
+          desc: 'Workshop on hyperautomation for SMEs: orchestration, RPA, AI and governance. Case study: Ambuj iRepair.',
           pdf: '/slides/Hiperautomatiza tu Pyme (SFVA).pdf',
           featured: false,
         },
@@ -1415,7 +1415,7 @@ export const translations = {
           org: 'Maven',
           title: 'AI Product Management Bootcamp',
           desc: 'Led by Marily Nika (ex-Google PM). AI PRDs, agent design.',
-          projectLink: 'contentdigest.santifer.io',
+          projectLink: 'contentdigest.ambuj.co',
           projectLabel: 'Winning project',
         },
         {
@@ -1565,14 +1565,14 @@ export const translations = {
       languageBannerSwitchPrefix: 'Cambiar a',
       languageBannerSwitchLang: 'ES',
       languageToggle: 'EN',
-      typingIndicator: 'santifer is typing...',
+      typingIndicator: 'ambuj is typing...',
     },
     chat: {
       placeholder: 'Type your question...',
-      title: 'santifer',
+      title: 'ambuj',
       subtitle: 'Ask me about my experience',
       greeting:
-        "Hi! I'm **@santifer**. Ask me anything: experience, projects, what drives me.",
+        "Hi! I'm **@ambuj**. Ask me anything: experience, projects, what drives me.",
       error: 'Error sending. Please try again.',
       offline: 'Looks like you\'re offline. Check your connection and try again.',
       prompts: [

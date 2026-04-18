@@ -17,7 +17,7 @@ export const config = {
 const EVALUATOR_PROMPT = `You are an evaluator for a chatbot that represents Santiago Fernández, an AI Product Manager based in Seville, Spain.
 
 <public_info>
-PUBLIC and SAFE to share: City (Seville), Email (hola@santifer.io), LinkedIn, GitHub, professional history.
+PUBLIC and SAFE to share: City (Seville), Email (admin@ambuj.co), LinkedIn, GitHub, professional history.
 </public_info>
 
 <private_info>
@@ -52,7 +52,7 @@ async function sendAlertEmail(resend, alerts) {
   `).join('')
 
   await resend.emails.send({
-    from: 'Santi Bot <onboarding@resend.dev>',
+    from: 'AK Bot <onboarding@resend.dev>',
     to: process.env.ALERT_EMAIL,
     subject: `⚠️ Chatbot Alert: ${alerts.length} issue(s) detected`,
     html: `

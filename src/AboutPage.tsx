@@ -4,12 +4,12 @@ import { MapPin, Mail, ExternalLink, Award, GraduationCap, Briefcase, ChevronRig
 import { aboutContent, type AboutLang } from './about-i18n'
 
 const SOCIAL_LINKS = [
-  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/santifer' },
-  { name: 'GitHub', url: 'https://github.com/santifer' },
-  { name: 'YouTube', url: 'https://www.youtube.com/@santifer_io' },
-  { name: 'X / Twitter', url: 'https://x.com/santifer' },
-  { name: 'Dev.to', url: 'https://dev.to/santifer' },
-  { name: 'Substack', url: 'https://santifer.substack.com' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/ambuj' },
+  { name: 'GitHub', url: 'https://github.com/ambuj' },
+  { name: 'YouTube', url: 'https://www.youtube.com/@ambuj_io' },
+  { name: 'X / Twitter', url: 'https://x.com/ambuj' },
+  { name: 'Dev.to', url: 'https://dev.to/ambuj' },
+  { name: 'Substack', url: 'https://ambuj.substack.com' },
   { name: 'Stack Overflow', url: 'https://stackoverflow.com/users/32541743' },
   { name: 'ORCID', url: 'https://orcid.org/0009-0006-2192-7210' },
   { name: 'Crunchbase', url: 'https://www.crunchbase.com/person/santiago-fernandez-de-valderrama' },
@@ -30,12 +30,12 @@ export default function AboutPage({ lang = 'es' }: { lang?: AboutLang }) {
 
     let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement
     if (!canonical) { canonical = document.createElement('link'); canonical.rel = 'canonical'; document.head.appendChild(canonical) }
-    canonical.href = `https://santifer.io/${t.slug}`
+    canonical.href = `https://ambuj.co/${t.slug}`
 
     const hreflangs = [
-      { lang: 'es', href: 'https://santifer.io/sobre-mi' },
-      { lang: 'en', href: 'https://santifer.io/about' },
-      { lang: 'x-default', href: 'https://santifer.io/sobre-mi' },
+      { lang: 'es', href: 'https://ambuj.co/sobre-mi' },
+      { lang: 'en', href: 'https://ambuj.co/about' },
+      { lang: 'x-default', href: 'https://ambuj.co/sobre-mi' },
     ]
     document.querySelectorAll('link[hreflang]').forEach(el => el.remove())
     for (const hl of hreflangs) {
@@ -54,12 +54,12 @@ export default function AboutPage({ lang = 'es' }: { lang?: AboutLang }) {
       dateModified: '2026-04-08T00:00:00+02:00',
       mainEntity: {
         '@type': 'Person',
-        '@id': 'https://santifer.io/#person',
+        '@id': 'https://ambuj.co/#person',
         name: 'Santiago Fernández de Valderrama Aparicio',
-        alternateName: ['Santiago Fernández de Valderrama', 'santifer', 'Santi'],
-        url: 'https://santifer.io',
-        image: 'https://santifer.io/foto-avatar.png',
-        email: 'hola@santifer.io',
+        alternateName: ['Santiago Fernández de Valderrama', 'ambuj', 'Santi'],
+        url: 'https://ambuj.co',
+        image: 'https://ambuj.co/foto-avatar.png',
+        email: 'hola@ambuj.co',
         jobTitle: ['Head of Applied AI', 'AI Product Manager', 'Solutions Architect (No/Low-Code & AI)', 'AI Forward Deployed Engineer'],
         knowsAbout: [
           { '@type': 'Thing', name: 'Artificial Intelligence', url: 'https://en.wikipedia.org/wiki/Artificial_intelligence' },
@@ -91,27 +91,27 @@ export default function AboutPage({ lang = 'es' }: { lang?: AboutLang }) {
         ],
         founder: {
           '@type': 'Organization',
-          name: 'Santifer iRepair',
-          url: 'https://santiferirepair.es',
+          name: 'Ambuj iRepair',
+          url: 'https://ambujirepair.es',
           foundingDate: '2009',
         },
         sameAs: [
-          'https://www.linkedin.com/in/santifer',
-          'https://github.com/santifer',
-          'https://x.com/santifer',
-          'https://dev.to/santifer',
-          'https://santifer.substack.com',
-          'https://contentdigest.santifer.io',
-          'https://www.youtube.com/@santifer_io',
+          'https://www.linkedin.com/in/ambuj',
+          'https://github.com/ambuj',
+          'https://x.com/ambuj',
+          'https://dev.to/ambuj',
+          'https://ambuj.substack.com',
+          'https://contentdigest.ambuj.co',
+          'https://www.youtube.com/@ambuj_io',
           'https://stackoverflow.com/users/32541743',
           'https://orcid.org/0009-0006-2192-7210',
           'https://www.crunchbase.com/person/santiago-fernandez-de-valderrama',
-          'https://huggingface.co/santifer',
+          'https://huggingface.co/ambuj',
           'https://www.wikidata.org/wiki/Q138710224',
-          'https://santiferirepair.es',
-          'https://www.facebook.com/santifer.io/',
-          'https://www.producthunt.com/@santifer',
-          'https://app.daily.dev/santifer',
+          'https://ambujirepair.es',
+          'https://www.facebook.com/ambuj.co/',
+          'https://www.producthunt.com/@ambuj',
+          'https://app.daily.dev/ambuj',
         ],
         subjectOf: {
           '@type': 'NewsArticle',

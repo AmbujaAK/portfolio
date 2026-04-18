@@ -23,15 +23,15 @@ interface BadgeConfig {
 
 // Repos with GitHubRepoBadge in article components
 const BADGE_REPOS: BadgeConfig[] = [
-  { owner: 'santifer', repo: 'career-ops', file: 'src/CareerOps.tsx', label: 'career-ops (badge)' },
-  { owner: 'santifer', repo: 'jacobo-workflows', file: 'src/JacoboAgent.tsx', label: 'jacobo-workflows (badge)' },
+  { owner: 'ambuj', repo: 'career-ops', file: 'src/CareerOps.tsx', label: 'career-ops (badge)' },
+  { owner: 'ambuj', repo: 'jacobo-workflows', file: 'src/JacoboAgent.tsx', label: 'jacobo-workflows (badge)' },
 ]
 
 // Repos with stars/forks in i18n.ts project cards
 const I18N_REPOS = [
-  { owner: 'santifer', repo: 'career-ops', label: 'career-ops (i18n)' },
-  { owner: 'santifer', repo: 'cv-santiago', label: 'cv-santiago (i18n)' },
-  { owner: 'santifer', repo: 'claude-pulse', label: 'claude-pulse (i18n)' },
+  { owner: 'ambuj', repo: 'career-ops', label: 'career-ops (i18n)' },
+  { owner: 'ambuj', repo: 'cv-santiago', label: 'cv-santiago (i18n)' },
+  { owner: 'ambuj', repo: 'claude-pulse', label: 'claude-pulse (i18n)' },
 ]
 
 function formatCount(n: number): string {
@@ -51,7 +51,7 @@ async function fetchGitHubStats(owner: string, repo: string): Promise<{ stars: n
   try {
     const res = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
       headers: {
-        'User-Agent': 'santifer-build/1.0',
+        'User-Agent': 'ambuj-build/1.0',
         ...(process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {}),
       },
     })
@@ -162,7 +162,7 @@ async function main() {
   let appTsx = readFileSync(APP_PATH, 'utf-8')
   let appChanged = false
 
-  for (const repo of [{ owner: 'santifer', repo: 'career-ops', label: 'career-ops (hero)' }]) {
+  for (const repo of [{ owner: 'ambuj', repo: 'career-ops', label: 'career-ops (hero)' }]) {
     const stats = await fetchGitHubStats(repo.owner, repo.repo)
     if (!stats) continue
 
@@ -195,7 +195,7 @@ async function main() {
   }
 
   // 4. Update career-ops star count in SEO meta descriptions (i18n.ts + index.html)
-  const careerOpsStats = await fetchGitHubStats('santifer', 'career-ops')
+  const careerOpsStats = await fetchGitHubStats('ambuj', 'career-ops')
   if (careerOpsStats) {
     const starLabel = formatCount(careerOpsStats.stars) + '+'
 

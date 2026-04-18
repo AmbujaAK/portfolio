@@ -5,7 +5,7 @@ import { irepairContent, type IRepairLang } from './irepair-i18n'
 import { useArticleSeo } from './articles/use-article-seo'
 import { ArticleLayout, MetricsGrid, CaseStudyCta } from './articles/components'
 
-export default function SantiferIRepair({ lang }: { lang: IRepairLang }) {
+export default function AmbujIRepair({ lang }: { lang: IRepairLang }) {
   const t = irepairContent[lang]
 
   const jsonLd = useMemo(() => ({
@@ -47,7 +47,7 @@ export default function SantiferIRepair({ lang }: { lang: IRepairLang }) {
     description: t.seo.description,
     image: 'https://santifer.io/business-os/og-business-os.webp',
     publishedTime: '2026-03-08',
-    articleTags: 'Santifer iRepair, phone repair, Seville, exit, founder',
+    articleTags: 'Ambuj iRepair, phone repair, Seville, exit, founder',
     jsonLd,
     xDefaultSlug: 'santifer-irepair',
   })
@@ -67,7 +67,7 @@ export default function SantiferIRepair({ lang }: { lang: IRepairLang }) {
       <div className="relative -mx-4 sm:-mx-6 lg:-mx-8 -mt-8 md:-mt-12 mb-8 rounded-b-2xl overflow-hidden">
         <img
           src="/irepair/storefront.webp"
-          alt="Santifer iRepair storefront — Seville"
+          alt="Ambuj iRepair storefront — Seville"
           className="w-full h-[360px] sm:h-[420px] object-cover object-center scale-110"
           width={960}
           height={712}
@@ -95,7 +95,7 @@ export default function SantiferIRepair({ lang }: { lang: IRepairLang }) {
           <div className="flex items-center gap-4 p-6 pb-0">
             <img
               src="/logo-santifer.webp"
-              alt="Santifer iRepair logo"
+              alt="Ambuj iRepair logo"
               className="w-16 h-16 rounded-full border-2 border-primary/20 shrink-0 object-cover"
               width={64}
               height={64}
@@ -105,7 +105,7 @@ export default function SantiferIRepair({ lang }: { lang: IRepairLang }) {
           <p className="text-muted-foreground text-sm leading-relaxed px-6 pt-3 whitespace-pre-line">{t.cards.shop.body}</p>
           <div className="px-6 pb-2">
             <a
-              href="https://www.google.com/maps/search/Santifer+iRepair+Sevilla"
+              href="https://www.google.com/maps/search/Ambuj+iRepair+Sevilla"
               target="_blank"
               rel="noopener noreferrer nofollow"
               className="inline-flex items-center justify-center gap-2 w-full px-5 py-2.5 rounded-lg bg-card border border-border text-sm font-medium text-muted-foreground hover:text-foreground hover:border-primary/30 transition-colors"

@@ -6,18 +6,18 @@
 
 - **Location:** Seville, Spain
 - **Open to:** Remote roles in EU/USA
-- **Email:** hi@santifer.io
-- **Entity Home / About**: https://santifer.io/about
-- **Website:** https://santifer.io
-- **LinkedIn:** https://linkedin.com/in/santifer
-- **X / Twitter:** https://x.com/santifer
-- **GitHub:** https://github.com/santifer
-- **Content Digest:** https://contentdigest.santifer.io
-- **Newsletter (Substack):** https://santifer.substack.com
-- **Facebook:** https://www.facebook.com/santifer.io/
-- **Product Hunt:** https://www.producthunt.com/@santifer
-- **daily.dev:** https://app.daily.dev/santifer
-- **dev.to:** https://dev.to/santifer
+- **Email:** hi@ambuj.co
+- **Entity Home / About**: https://ambuj.co/about
+- **Website:** https://ambuj.co
+- **LinkedIn:** https://linkedin.com/in/ambuj
+- **X / Twitter:** https://x.com/ambuj
+- **GitHub:** https://github.com/ambuj
+- **Content Digest:** https://contentdigest.ambuj.co
+- **Newsletter (Substack):** https://ambuj.substack.com
+- **Facebook:** https://www.facebook.com/ambuj.co/
+- **Product Hunt:** https://www.producthunt.com/@ambuj
+- **daily.dev:** https://app.daily.dev/ambuj
+- **dev.to:** https://dev.to/ambuj
 
 ## Professional Summary
 
@@ -85,7 +85,7 @@ AI-augmented SDLC: design with clear constraints and threat modeling, implement 
 
 ## Work Experience
 
-### Santifer iRepair (2009-2025) - Founder & Product Lead
+### Ambuj iRepair (2009-2025) - Founder & Product Lead
 **Exit 2025:** Built, scaled and sold the business as a going concern
 
 - Mobile, tablet and smartwatch repairs — +30,000 repairs completed
@@ -141,7 +141,7 @@ Python + FastAPI service for LLM-powered content ingestion and digest generation
 ### Life OS (Private · On Request)
 Personal productivity system I built to run my life through conversation. Orchestrates Claude Code with native MCPs (Apple Reminders/Calendar, GitHub), 15 custom skills, 5 automation hooks, and semantic search (BM25 + SQLite FTS5). Pipes into Content Digest for a full knowledge loop and powers Career Ops for HITL automated job search.
 
-### Career Ops (Open Source) — [Case Study](https://santifer.io/career-ops-system)
+### Career Ops (Open Source) — [Case Study](https://ambuj.co/career-ops-system)
 AI job search tool built as a multi-agent system. 12 operational modes, 10-dimension scoring (A-F), AI resume builder that generates ATS-optimized PDFs per listing, automated job application with Playwright, batch processing 122 URLs in parallel (conductor + workers). 631 evaluations, 354 PDFs generated, 680 URLs deduplicated. HITL design: AI analyzes, I decide. Plugs into Life OS as a specialized skill.
 
 ### Claude Pulse (Open Source)
@@ -159,20 +159,20 @@ Risk prediction dashboard for project portfolios. ML model trained on synthetic 
 ### AI Solutions Playbook (Private · On Request)
 Productivity system for Solutions Architects working with multiple DTC clients. Context switching from 30min to 30sec, automatic guardrails for production operations, auto-generated SESSION_BRIEF on project open, ADRs and complete operation logging.
 
-### santifer.io (This Portfolio)
+### ambuj.co (This Portfolio)
 Interactive CV with self-healing AI chatbot, voice mode (OpenAI Realtime API), and agentic observability. RAG pipeline (Supabase pgvector + OpenAI embeddings + Haiku reranking), 6-layer jailbreak defense (50+ keyword patterns, canary tokens, fingerprinting, anti-extract, real-time safety scoring, adversarial red team), 71 automated evals (10 categories including multi-turn, source badges, and voice) with CI gate, closed-loop improvement (trace-to-eval, adversarial testing, prompt versioning via Langfuse). Batch eval with Sonnet scores intent, quality, safety and jailbreak detection; alerts via Resend. Custom ops dashboard with 8 tabs: conversations, costs, RAG, security, evals, voice, prompts, system. Developer feedback loop: Claude Code queries Langfuse traces and generates fixes. <$0.005/conversation text, ~$0.25/session voice, $0 infrastructure.
 
 ### Published Case Studies
-- [Career-Ops: AI Job Search Tool](https://santifer.io/career-ops-system): Multi-agent system for job search — 10D scoring, AI resume builder, batch processing 122 URLs, HITL design. 631 evaluations.
-- [The Self-Healing Chatbot](https://santifer.io/self-healing-chatbot): LLMOps case study — agentic observability, 71 evals, voice mode, closed-loop
-- [AI Agent Jacobo](https://santifer.io/ai-agent-jacobo): Omnichannel multi-agent AI — 90% self-service, voice + WhatsApp
-- [Business OS](https://santifer.io/business-os-for-airtable): Custom ERP with 12 Airtable bases, 2100 fields, 170h/month saved
-- [Programmatic SEO](https://santifer.io/programmatic-seo): 4,730 pages from Airtable as headless CMS, 2M+ impressions
-- [n8n for PMs](https://santifer.io/n8n-for-pms): Automation cheat sheet for product managers
+- [Career-Ops: AI Job Search Tool](https://ambuj.co/career-ops-system): Multi-agent system for job search — 10D scoring, AI resume builder, batch processing 122 URLs, HITL design. 631 evaluations.
+- [The Self-Healing Chatbot](https://ambuj.co/self-healing-chatbot): LLMOps case study — agentic observability, 71 evals, voice mode, closed-loop
+- [AI Agent Jacobo](https://ambuj.co/ai-agent-jacobo): Omnichannel multi-agent AI — 90% self-service, voice + WhatsApp
+- [Business OS](https://ambuj.co/business-os-for-airtable): Custom ERP with 12 Airtable bases, 2100 fields, 170h/month saved
+- [Programmatic SEO](https://ambuj.co/programmatic-seo): 4,730 pages from Airtable as headless CMS, 2M+ impressions
+- [n8n for PMs](https://ambuj.co/n8n-for-pms): Automation cheat sheet for product managers
 
 ## Lightning Session: n8n for Product Managers (Maven, Feb 2026)
 
-Session taught at AI Product Academy (Maven, Marily Nika). Full material: https://santifer.io/n8n-for-pms
+Session taught at AI Product Academy (Maven, Marily Nika). Full material: https://ambuj.co/n8n-for-pms
 
 **Problem:** PMs lose 20-30h/week on repetitive tasks (sprint reports, classifying feedback, moving data between tools). Santiago tracked 170h/month before automating.
 
@@ -200,13 +200,13 @@ Teaching Fellow at the #1 AI PM Bootcamp (https://maven.com/marily-nika/ai-pm-bo
 1h community session on no-code (Zapier, Make, n8n, Airtable) as the AI PM's superpower for faster validation and delivery.
 
 ### Hiperautomatiza tu Pyme (2025) — Local Entrepreneurs, Seville
-Workshop on hyperautomation for SMEs: orchestration, RPA, AI and governance. Case study: Santifer iRepair.
+Workshop on hyperautomation for SMEs: orchestration, RPA, AI and governance. Case study: Ambuj iRepair.
 
 ## LinkedIn (Technical Content with Real Engagement)
 
 - Post about chatbot security (300+ reactions, 50+ comments): how I detected a hack attempt in 3 seconds with Langfuse
 - Post about business opportunities in niches (115+ reactions, 10+ comments): market data analysis to find the next business
-- Post about Santifer iRepair exit (65+ reactions): 16-year narrative of building and the decision to sell
+- Post about Ambuj iRepair exit (65+ reactions): 16-year narrative of building and the decision to sell
 
 ## Soft Skills
 
@@ -233,6 +233,6 @@ Senior remote role in EU/USA to:
 ## How to Hire Santiago
 
 For AI Product Manager, Solutions Architect, or Forward Deployed Engineer roles:
-- Email: hola@santifer.io
-- LinkedIn: linkedin.com/in/santifer
-- Website: santifer.io (chat with AI avatar for quick questions)
+- Email: hola@ambuj.co
+- LinkedIn: linkedin.com/in/ambuj
+- Website: ambuj.co (chat with AI avatar for quick questions)

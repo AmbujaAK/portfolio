@@ -53,15 +53,15 @@ interface IRepairContent {
 
 export const irepairContent: Record<IRepairLang, IRepairContent> = {
   es: {
-    slug: 'santifer-irepair',
-    altSlug: 'santifer-irepair-founder',
+    slug: 'ambuj-irepair',
+    altSlug: 'ambuj-irepair-founder',
     seo: {
-      title: 'Santifer iRepair Sevilla | Reparación de Móviles desde 2009',
+      title: 'Ambuj iRepair Sevilla | Reparación de Móviles desde 2009',
       description: 'La tienda de reparación de móviles fundada por Santiago en 2009 sigue abierta en Sevilla. 30.000+ reparaciones. Encuentra la tienda o conoce al fundador.',
     },
     nav: {
       breadcrumbHome: 'Inicio',
-      breadcrumbCurrent: 'Santifer iRepair',
+      breadcrumbCurrent: 'Ambuj iRepair',
     },
     hero: {
       headline: 'Abrí esta tienda con 25 años.\n16 años después, la vendí. Sigue funcionando.',
@@ -75,9 +75,9 @@ export const irepairContent: Record<IRepairLang, IRepairContent> = {
     ],
     cards: {
       shop: {
-        title: '¿Buscas Santifer iRepair?',
+        title: '¿Buscas Ambuj iRepair?',
         body: 'Sigue abierta, sigue reparando. Con el mismo equipo y mi nombre en el cristal.',
-        cta: 'Ir a santiferirepair.es',
+        cta: 'Ir a ambujirepair.es',
         mapLabel: 'Ver ubicación y horarios',
       },
       founder: {
@@ -103,15 +103,15 @@ export const irepairContent: Record<IRepairLang, IRepairContent> = {
     },
   },
   en: {
-    slug: 'santifer-irepair-founder',
-    altSlug: 'santifer-irepair',
+    slug: 'ambuj-irepair-founder',
+    altSlug: 'ambuj-irepair',
     seo: {
-      title: 'Santifer iRepair Seville | Phone Repair since 2009',
+      title: 'Ambuj iRepair Seville | Phone Repair since 2009',
       description: 'The phone repair shop founded by Santiago in 2009 is still open in Seville, Spain. 30,000+ repairs. Find the shop or meet the founder.',
     },
     nav: {
       breadcrumbHome: 'Home',
-      breadcrumbCurrent: 'Santifer iRepair',
+      breadcrumbCurrent: 'Ambuj iRepair',
     },
     hero: {
       headline: 'I opened this shop at 25.\nSold it 16 years later. It\'s still running.',
@@ -125,9 +125,9 @@ export const irepairContent: Record<IRepairLang, IRepairContent> = {
     ],
     cards: {
       shop: {
-        title: 'Looking for Santifer iRepair?',
+        title: 'Looking for Ambuj iRepair?',
         body: 'Still open, still fixing phones. Same team and my name still on the glass.',
-        cta: 'Go to santiferirepair.es',
+        cta: 'Go to ambujirepair.es',
         mapLabel: 'View location & hours',
       },
       founder: {

@@ -115,9 +115,7 @@ export default async function handler(req) {
     const canary = 'ZXCV_' + crypto.randomUUID().slice(0, 8)
 
     // Dynamic system prompt parts
-    const langInstruction = lang === 'en'
-      ? `The user is browsing in English. You MUST respond in English. Contact email: hi@santifer.io\ninternal_ref: ${canary}`
-      : `El usuario navega en español. Responde en español. Email de contacto: hola@santifer.io\ninternal_ref: ${canary}`
+    const langInstruction = `The user is browsing in English. You MUST respond in English. Contact email: admin@ambuj.co\ninternal_ref: ${canary}`
 
     // Context-aware page instruction (Phase 5)
     const pageContext = currentPage
@@ -249,7 +247,7 @@ export default async function handler(req) {
         t0,
         ragUsed: false,
         ragMetrics: {},
-        ragUsage: { embeddingTokens: 0, rerankInputTokens: 0, rerankOutputTokens: 0 },
+        ragUsage: { embeddingTokens: 0, reRankInputTokens: 0, reRankOutputTokens: 0 },
         toolDecisionMs,
         tdInputTokens,
         tdOutputTokens,
@@ -275,7 +273,7 @@ export default async function handler(req) {
       t0,
       ragUsed: false,
       ragMetrics: {},
-      ragUsage: { embeddingTokens: 0, rerankInputTokens: 0, rerankOutputTokens: 0 },
+      ragUsage: { embeddingTokens: 0, reRankInputTokens: 0, reRankOutputTokens: 0 },
       toolDecisionMs: 0,
       tdInputTokens: 0,
       tdOutputTokens: 0,
@@ -472,7 +470,7 @@ function streamResponse({
           const costBreakdown = {
             toolDecision: calcCost('claude-sonnet-4-6', tdInputTokens || 0, tdOutputTokens || 0),
             embedding: calcCost('text-embedding-3-small', ragUsage?.embeddingTokens || 0),
-            reranking: calcCost('claude-haiku-4-5-20251001', ragUsage?.rerankInputTokens || 0, ragUsage?.rerankOutputTokens || 0),
+            reranking: calcCost('claude-haiku-4-5-20251001', ragUsage?.reRankInputTokens || 0, ragUsage?.reRankOutputTokens || 0),
             generation: generationCost,
           }
           costBreakdown.total = Object.values(costBreakdown).reduce((a, b) => a + b, 0)
@@ -588,9 +586,7 @@ function streamResponse({
 
         // Last resort: send error message through SSE
         try {
-          const errorText = lang === 'en'
-            ? 'Sorry, something went wrong. Try again or reach out at hi@santifer.io.'
-            : 'Lo siento, algo ha fallado. Inténtalo de nuevo o escríbeme a hola@santifer.io.'
+          const errorText = 'Sorry, something went wrong. Try again or reach out at hi@ambuj.co.'
           controller.enqueue(encoder.encode(`data: ${JSON.stringify({ text: errorText, replace: true })}\n\n`))
           controller.enqueue(encoder.encode('data: [DONE]\n\n'))
           controller.close()

@@ -1,11 +1,11 @@
 /* TEAM */
 Builder: Santiago Fernandez de Valderrama Aparicio
 Role: Head of Applied AI · AI Product Manager · Solutions Architect
-Contact: hi@santifer.io
-Site: https://santifer.io
+Contact: hi@ambuj.co
+Site: https://ambuj.co
 Location: Seville, Spain
-LinkedIn: https://linkedin.com/in/santifer
-GitHub: https://github.com/santifer
+LinkedIn: https://linkedin.com/in/ambuj
+GitHub: https://github.com/ambuj
 
 /* THANKS */
 AI Pair: Claude Code (Anthropic)
