@@ -19,7 +19,7 @@ const content = {
       {
         heading: 'Como se utilizan los datos',
         items: [
-          'Los mensajes del chatbot se utilizan exclusivamente para generar respuestas contextuales sobre la experiencia profesional de Santiago.',
+          'Los mensajes del chatbot se utilizan exclusivamente para generar respuestas contextuales sobre la experiencia profesional de Ambuj.',
           'Las trazas de conversacion se almacenan de forma anonimizada para mejorar la calidad de las respuestas y detectar intentos de uso indebido.',
           'Los datos de analiticas se utilizan para entender patrones de uso y mejorar el rendimiento del sitio.',
         ],
@@ -44,7 +44,7 @@ const content = {
       {
         heading: 'Contacto',
         body: 'Para cualquier consulta sobre privacidad, puedes escribir a:',
-        email: 'hola@ambuj.co',
+        email: 'itsambuja@gmail.com',
       },
     ],
     backHome: 'Volver al inicio',
@@ -65,7 +65,7 @@ const content = {
       {
         heading: 'How data is used',
         items: [
-          "Chatbot messages are used exclusively to generate contextual responses about Santiago's professional experience.",
+          "Chatbot messages are used exclusively to generate contextual responses about Ambuj's professional experience.",
           'Conversation traces are stored in anonymized form to improve response quality and detect misuse attempts.',
           'Analytics data is used to understand usage patterns and improve site performance.',
         ],
@@ -90,7 +90,7 @@ const content = {
       {
         heading: 'Contact',
         body: 'For any privacy-related inquiries, you can write to:',
-        email: 'hola@ambuj.co',
+        email: 'itsambuja@gmail.com',
       },
     ],
     backHome: 'Back to home',

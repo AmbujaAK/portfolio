@@ -27,21 +27,11 @@ import AboutPage from '../src/AboutPage.tsx';
 import { aboutContent } from '../src/about-i18n.ts';
 import PrivacyPolicy from '../src/PrivacyPolicy.tsx';
 import { seo } from '../src/i18n.ts';
-import { n8nContent } from '../src/n8n-i18n.ts';
 import { jacoboContent } from '../src/jacobo-i18n.ts';
-import { businessOsContent } from '../src/business-os-i18n.ts';
-import { pseoContent } from '../src/pseo-i18n.ts';
-import { chatbotContent } from '../src/chatbot-i18n.ts';
-import { careerOpsContent } from '../src/career-ops-i18n.ts';
 
 // Map article id → i18n content for JSON-LD generation
 const i18nMap: Record<string, Record<string, { header: { h1: string }; nav: { breadcrumbHome: string; breadcrumbCurrent: string }; faq: { items: readonly { q: string; a: string }[] } }>> = {
-  'n8n-for-pms': n8nContent,
   'jacobo': jacoboContent,
-  'business-os': businessOsContent,
-  'programmatic-seo': pseoContent,
-  'self-healing-chatbot': chatbotContent,
-  'career-ops': careerOpsContent,
 };
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -163,72 +153,24 @@ const aboutJsonLd = {
   mainEntity: {
     '@type': 'Person',
     '@id': 'https://ambuj.co/#person',
-    name: 'Santiago Fernández de Valderrama Aparicio',
-    alternateName: ['Santiago Fernández de Valderrama', 'ambuj', 'Santi'],
+    name: 'Ambuj',
+    alternateName: ['Ambuj'],
     url: 'https://ambuj.co',
     image: 'https://ambuj.co/foto-avatar.png',
-    email: 'hola@ambuj.co',
-    jobTitle: ['Head of Applied AI', 'AI Product Manager', 'Solutions Architect (No/Low-Code & AI)', 'AI Forward Deployed Engineer'],
+    email: 'itsambuja@gmail.com',
+    jobTitle: ['[YOUR_JOB_TITLE_1]', '[YOUR_JOB_TITLE_2]'],
     knowsAbout: [
-      { '@type': 'Thing', name: 'Artificial Intelligence', url: 'https://en.wikipedia.org/wiki/Artificial_intelligence' },
-      { '@type': 'Thing', name: 'Machine Learning', url: 'https://en.wikipedia.org/wiki/Machine_learning' },
-      { '@type': 'Thing', name: 'Multi-Agent System', url: 'https://en.wikipedia.org/wiki/Multi-agent_system' },
-      { '@type': 'Thing', name: 'Retrieval-Augmented Generation', url: 'https://en.wikipedia.org/wiki/Retrieval-augmented_generation' },
-      { '@type': 'Thing', name: 'No-code development platform', url: 'https://en.wikipedia.org/wiki/No-code_development_platform' },
+      { '@type': 'Thing', name: 'Voice AI Agents' },
+      { '@type': 'Thing', name: 'Multi-Agent Orchestration' },
+      { '@type': 'Thing', name: 'LLM Integration' },
       { '@type': 'Thing', name: 'Prompt Engineering' },
-      { '@type': 'SoftwareApplication', name: 'Airtable', url: 'https://airtable.com' },
-      { '@type': 'SoftwareApplication', name: 'n8n', url: 'https://n8n.io' },
-      { '@type': 'SoftwareApplication', name: 'Claude API', url: 'https://docs.anthropic.com' },
     ],
-    hasCredential: [
-      { '@type': 'EducationalOccupationalCredential', name: 'Introduction to Model Context Protocol', recognizedBy: { '@type': 'Organization', name: 'Anthropic' }, url: 'https://verify.skilljar.com/c/4pxam3irsioq' },
-      { '@type': 'EducationalOccupationalCredential', name: 'Claude Code in Action', recognizedBy: { '@type': 'Organization', name: 'Anthropic' }, url: 'https://verify.skilljar.com/c/eijx7hwc2x89' },
-      { '@type': 'EducationalOccupationalCredential', name: 'Advanced MCP Topics', recognizedBy: { '@type': 'Organization', name: 'Anthropic' }, url: 'https://verify.skilljar.com/c/eiovmq5qaeyd' },
-      { '@type': 'EducationalOccupationalCredential', name: 'Building with the Claude API', recognizedBy: { '@type': 'Organization', name: 'Anthropic' }, url: 'https://verify.skilljar.com/c/s4bu5znz53vm' },
-      { '@type': 'EducationalOccupationalCredential', name: 'AI Fluency: Framework & Foundations', recognizedBy: { '@type': 'Organization', name: 'Anthropic' }, url: 'https://verify.skilljar.com/c/d6rhfox7ktq6' },
-      { '@type': 'EducationalOccupationalCredential', name: 'Teaching AI Fluency', recognizedBy: { '@type': 'Organization', name: 'Anthropic' }, url: 'https://verify.skilljar.com/c/x3bzuoz99rq5' },
-      { '@type': 'EducationalOccupationalCredential', name: 'AI App Builder Certification', recognizedBy: { '@type': 'Organization', name: 'Airtable' }, url: 'https://verify.skilljar.com/c/gwg7ak9qgf7r' },
-      { '@type': 'EducationalOccupationalCredential', name: 'Airtable Builder Certification', recognizedBy: { '@type': 'Organization', name: 'Airtable' }, url: 'https://verify.skilljar.com/c/id2e4zgqtasv' },
-      { '@type': 'EducationalOccupationalCredential', name: 'Airtable Admin Certification', recognizedBy: { '@type': 'Organization', name: 'Airtable' }, url: 'https://verify.skilljar.com/c/u3r8kgn5wdit' },
-      { '@type': 'EducationalOccupationalCredential', name: 'Make Advanced', recognizedBy: { '@type': 'Organization', name: 'Make Academy' }, url: 'https://www.credly.com/badges/d27b8174-ef20-46bd-9d81-ee05e9c349e8' },
-    ],
-    alumniOf: [
-      { '@type': 'EducationalOrganization', name: 'AI Product Academy — AI PM Bootcamp', url: 'https://maven.com/marily-nika/ai-pm-bootcamp', founder: { '@type': 'Person', name: 'Dr. Marily Nika', sameAs: 'https://www.wikidata.org/wiki/Q107463356' } },
-      { '@type': 'EducationalOrganization', name: 'BIGSEO - Master en Inteligencia Artificial' },
-      { '@type': 'EducationalOrganization', name: 'ETSI - Universidad de Sevilla' },
-    ],
-    founder: {
-      '@type': 'Organization',
-      name: 'Ambuj iRepair',
-      url: 'https://ambujirepair.es',
-      foundingDate: '2009',
-    },
+    hasCredential: [],
+    alumniOf: [],
     sameAs: [
-      'https://www.linkedin.com/in/ambuj',
-      'https://github.com/ambuj',
-      'https://x.com/ambuj',
-      'https://dev.to/ambuj',
-      'https://ambuj.substack.com',
-      'https://contentdigest.ambuj.co',
-      'https://www.youtube.com/@ambuj_io',
-      'https://stackoverflow.com/users/32541743',
-      'https://orcid.org/0009-0006-2192-7210',
-      'https://www.crunchbase.com/person/santiago-fernandez-de-valderrama',
-      'https://huggingface.co/ambuj',
-      'https://www.wikidata.org/wiki/Q138710224',
-      'https://ambujirepair.es',
-      'https://www.facebook.com/ambuj.co/',
-      'https://www.producthunt.com/@ambuj',
-      'https://app.daily.dev/ambuj',
+      'https://github.com/AmbujaAK',
     ],
-    subjectOf: {
-      '@type': 'NewsArticle',
-      headline: 'Salir de compras: Una solución exprés para el teléfono',
-      publisher: { '@type': 'NewsMediaOrganization', name: 'Diario de Sevilla' },
-      datePublished: '2014-06-19',
-      url: 'https://www.diariodesevilla.es/vivirensevilla/Salir-compras-solucion-expres-telefono_0_817718799.html',
-    },
-    address: { '@type': 'PostalAddress', addressLocality: 'Sevilla', addressCountry: 'ES' },
+    address: { '@type': 'PostalAddress', addressCountry: '[YOUR_COUNTRY_CODE]' },
   },
 };
 
@@ -362,7 +304,7 @@ function buildArticlePage(
     const articleMetaTags = [
       `<meta property="article:published_time" content="${seoMeta.datePublished}" />`,
       `<meta property="article:modified_time" content="${seoMeta.dateModified}" />`,
-      `<meta property="article:author" content="https://www.linkedin.com/in/ambuj" />`,
+      `<meta property="article:author" content="https://www.linkedin.com/in/[YOUR_HANDLE]" />`,
       `<meta property="article:tag" content="${esc(seoMeta.articleTags)}" />`,
     ].join('\n    ');
     result = result.replace('</head>', `    ${articleMetaTags}\n  </head>`);

@@ -1413,7 +1413,7 @@ function CertLogo({ logo }: { logo: string }) {
 
 function App() {
   const location = useLocation()
-  const lang: Lang = location.pathname === '/en' ? 'en' : 'es'
+  const lang: Lang = location.pathname === '/es' ? 'es' : 'en'
   const t = translations[lang]
   const hydrated = useHydrated()
   useHeroStyles()

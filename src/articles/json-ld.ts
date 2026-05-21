@@ -44,12 +44,12 @@ interface JsonLdOptions {
 const PERSON = {
   '@type': 'Person',
   '@id': 'https://ambuj.co/#person',
-  name: 'Santiago Fernández de Valderrama Aparicio',
+  name: 'Ambuj',
   url: 'https://ambuj.co',
   jobTitle: 'Head of Applied AI',
   sameAs: [
-    'https://www.linkedin.com/in/ambuj',
-    'https://github.com/ambuj',
+    'https://www.linkedin.com/in/[YOUR_HANDLE]',
+    'https://github.com/AmbujaAK',
     'https://x.com/ambuj',
     'https://dev.to/ambuj',
     'https://ambuj.substack.com',

@@ -1,24 +1,15 @@
 /* TEAM */
-Builder: Santiago Fernandez de Valderrama Aparicio
-Role: Head of Applied AI · AI Product Manager · Solutions Architect
-Contact: hi@ambuj.co
+Builder: Ambuj
+Contact: itsambuja@gmail.com
 Site: https://ambuj.co
-Location: Seville, Spain
-LinkedIn: https://linkedin.com/in/ambuj
-GitHub: https://github.com/ambuj
+GitHub: https://github.com/AmbujaAK
 
 /* THANKS */
 AI Pair: Claude Code (Anthropic)
+Forked from: Santiago Fernández de Valderrama — original site at santifer.io (used as a template)
 
 /* SITE */
 Stack: React 19, TypeScript, Vite, Tailwind CSS, Motion
-AI: Claude API (claude-sonnet-4-6), streaming via Vercel Edge
-Quality: 71 evals, 6-layer security, Langfuse observability, closed-loop quality
+AI: Claude API, streaming via Vercel Edge
 Hosting: Vercel
 Standards: llms.txt, security.txt, JSON-LD, Open Graph
-
-/* CRAFT */
-Performance: Lighthouse 100, pre-rendered SSR, critical CSS inlining
-Security: CSP, input sanitization, prompt injection defense, rate limiting
-Accessibility: Semantic HTML, ARIA labels, keyboard navigation
-SEO: Programmatic meta tags, structured data, sitemap, hreflang

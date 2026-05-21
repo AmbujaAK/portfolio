@@ -4,8 +4,8 @@ import { MapPin, Mail, ExternalLink, Award, GraduationCap, Briefcase, ChevronRig
 import { aboutContent, type AboutLang } from './about-i18n'
 
 const SOCIAL_LINKS = [
-  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/ambuj' },
-  { name: 'GitHub', url: 'https://github.com/ambuj' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/[YOUR_HANDLE]' },
+  { name: 'GitHub', url: 'https://github.com/AmbujaAK' },
   { name: 'YouTube', url: 'https://www.youtube.com/@ambuj_io' },
   { name: 'X / Twitter', url: 'https://x.com/ambuj' },
   { name: 'Dev.to', url: 'https://dev.to/ambuj' },
@@ -55,11 +55,11 @@ export default function AboutPage({ lang = 'es' }: { lang?: AboutLang }) {
       mainEntity: {
         '@type': 'Person',
         '@id': 'https://ambuj.co/#person',
-        name: 'Santiago Fernández de Valderrama Aparicio',
-        alternateName: ['Santiago Fernández de Valderrama', 'ambuj', 'Santi'],
+        name: 'Ambuj',
+        alternateName: ['Ambuj', 'ambuj', 'Santi'],
         url: 'https://ambuj.co',
         image: 'https://ambuj.co/foto-avatar.png',
-        email: 'hola@ambuj.co',
+        email: 'itsambuja@gmail.com',
         jobTitle: ['Head of Applied AI', 'AI Product Manager', 'Solutions Architect (No/Low-Code & AI)', 'AI Forward Deployed Engineer'],
         knowsAbout: [
           { '@type': 'Thing', name: 'Artificial Intelligence', url: 'https://en.wikipedia.org/wiki/Artificial_intelligence' },
@@ -96,8 +96,8 @@ export default function AboutPage({ lang = 'es' }: { lang?: AboutLang }) {
           foundingDate: '2009',
         },
         sameAs: [
-          'https://www.linkedin.com/in/ambuj',
-          'https://github.com/ambuj',
+          'https://www.linkedin.com/in/[YOUR_HANDLE]',
+          'https://github.com/AmbujaAK',
           'https://x.com/ambuj',
           'https://dev.to/ambuj',
           'https://ambuj.substack.com',
@@ -140,7 +140,7 @@ export default function AboutPage({ lang = 'es' }: { lang?: AboutLang }) {
             src="/foto-avatar-sm.webp"
             srcSet="/foto-avatar-sm.webp 192w, /foto-avatar.webp 384w"
             sizes="96px"
-            alt="Santiago Fernández de Valderrama"
+            alt="Ambuj"
             className="w-24 h-24 rounded-full border-2 border-border shadow-lg"
             width={96}
             height={96}
@@ -369,7 +369,7 @@ export default function AboutPage({ lang = 'es' }: { lang?: AboutLang }) {
         {/* Footer */}
         <footer className="mt-8 text-center">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Santiago Fernández de Valderrama. {lang === 'es' ? 'Todos los derechos reservados.' : 'All rights reserved.'}
+            &copy; {new Date().getFullYear()} Ambuj. {lang === 'es' ? 'Todos los derechos reservados.' : 'All rights reserved.'}
           </p>
         </footer>
       </main>

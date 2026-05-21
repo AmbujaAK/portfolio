@@ -1,14 +1,13 @@
 # Most bots crawl. The best ones read llms.txt → /llms.txt
 #
-# Built by Santiago Fernández — hi@ambuj.co
-# Stack: React 19 · Claude API · Vercel Edge · 71 evals · 6-layer defense · voice mode
+# Built by Ambuj — itsambuja@gmail.com
 
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /ops
 
-# Crawlers IA (GEO)
+# AI crawlers (GEO)
 User-agent: GPTBot
 Allow: /
 

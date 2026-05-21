@@ -1,5 +1,4 @@
 import { type ReactNode } from 'react'
-import { type N8nLang as Lang } from './n8n-i18n'
 import { buildJsonLdFromRegistry } from './articles/json-ld'
 import { useArticleSeo } from './articles/use-article-seo'
 import { Compass, Mic, CalendarDays, Receipt, Package, Calculator, HandHelping, Smartphone, MessageCircle, PhoneMissed, Download } from 'lucide-react'
@@ -46,6 +45,8 @@ import {
   AudioPlayer,
 } from './articles/content-types'
 import { jacoboContent } from './jacobo-i18n'
+
+type Lang = 'es' | 'en'
 
 // ---------------------------------------------------------------------------
 // Stack service icons (Simple Icons / brand SVGs)
@@ -148,8 +149,8 @@ export default function JacoboAgent({ lang = 'en' }: { lang?: Lang }) {
 
       {/* Hero images */}
       <Photo2 editorId="hero-photos" items={[
-        { src: '/jacobo/santiago-headphones-thinking.webp', alt: 'Santiago Fernández de Valderrama', loading: 'eager', width: 360, height: 480 },
-        { src: '/jacobo/shop-microsoldering-station.webp', alt: lang === 'es' ? 'Estación de microsoldadura en Ambuj iRepair' : 'Microsoldering station at Ambuj iRepair', loading: 'eager', width: 540, height: 720 },
+        { src: '/jacobo/your-photo.webp', alt: '[YOUR_NAME]', loading: 'eager', width: 360, height: 480 },
+        { src: '/jacobo/shop-microsoldering-station.webp', alt: lang === 'es' ? 'Estación de microsoldadura en [YOUR_PROJECT_NAME]' : 'Microsoldering station at [YOUR_PROJECT_NAME]', loading: 'eager', width: 540, height: 720 },
       ]} caption={lang === 'es' ? 'Cada llamada interrumpe una reparación en curso: el técnico deja la microsoldadura para atender al teléfono' : 'Every call interrupts a repair in progress: the technician leaves the microsoldering station to answer the phone'} />
 
       <article className="prose-custom">
@@ -170,7 +171,7 @@ export default function JacoboAgent({ lang = 'en' }: { lang?: Lang }) {
 
         {/* Counter + Diagnostic screen */}
         <Photo2 editorId="problem-shop-counter" items={[
-          { src: '/jacobo/shop-counter-smart-displays.webp', alt: lang === 'es' ? 'Mostrador de Ambuj iRepair con smart displays' : 'Ambuj iRepair counter with smart displays', width: 1024, height: 768 },
+          { src: '/jacobo/shop-counter-smart-displays.webp', alt: lang === 'es' ? 'Mostrador de [YOUR_PROJECT_NAME] con smart displays' : '[YOUR_PROJECT_NAME] counter with smart displays', width: 1024, height: 768 },
           { src: '/jacobo/shop-diagnostic-screen.webp', alt: lang === 'es' ? 'Pantalla de diagnóstico en la tienda' : 'Diagnostic screen in the shop', width: 1024, height: 768 },
         ]} caption={lang === 'es' ? 'El mostrador con smart displays y la pantalla de diagnóstico: el negocio que necesitaba un agente IA' : 'The counter with smart displays and the diagnostic screen: the business that needed an AI agent'} />
 
@@ -396,7 +397,7 @@ export default function JacoboAgent({ lang = 'en' }: { lang?: Lang }) {
         <ScreenshotGrid editorId="email-formal-flow" lang={lang} items={[
           { src: 'email-formal-1.webp', altEs: 'Jacobo responde como email formal: asunto, saludo, presupuesto Huawei P20 Pro', altEn: 'Jacobo responds as formal email: subject line, greeting, Huawei P20 Pro quote', width: 1170, height: 2532 },
           { src: 'email-formal-2.webp', altEs: 'Email: desglose batería + puerto carga = 85,80€ → descuento combo 70,80€', altEn: 'Email: battery + charging port = €85.80 → combo discount €70.80', width: 1170, height: 2532 },
-          { src: 'email-formal-3.webp', altEs: 'Firma: "Un saludo, Jacobo — Ambuj iRepair — dirección + teléfono + email"', altEn: 'Signature: "Best regards, Jacobo — Ambuj iRepair — address + phone + email"', width: 1170, height: 2532 },
+          { src: 'email-formal-3.webp', altEs: 'Firma: "Un saludo, Jacobo — [YOUR_PROJECT_NAME] — dirección + teléfono + email"', altEn: 'Signature: "Best regards, Jacobo — [YOUR_PROJECT_NAME] — address + phone + email"', width: 1170, height: 2532 },
         ]} />
         <ScreenshotCaption editorId="email-formal-flow-caption" lang={lang} es="Adaptabilidad: el cliente pide formato email y Jacobo responde con asunto, presupuesto desglosado, descuento combo y firma corporativa" en="Adaptability: customer asks for email format and Jacobo responds with subject line, itemized quote, combo discount and corporate signature" />
 
@@ -685,10 +686,10 @@ export default function JacoboAgent({ lang = 'en' }: { lang?: Lang }) {
           heading={t.cta.heading}
           body={t.cta.body}
           ctaLabel={`${t.cta.label} →`}
-          ctaHref="https://linkedin.com/in/ambuj"
+          ctaHref="https://linkedin.com/in/[YOUR_HANDLE]"
           external
           secondaryLabel={`${(t.cta as any).labelSecondary} →`}
-          secondaryHref="mailto:hola@ambuj.co"
+          secondaryHref="mailto:itsambuja@gmail.com"
         />
 
         {/* ================================================================ */}
@@ -777,10 +778,10 @@ export default function JacoboAgent({ lang = 'en' }: { lang?: Lang }) {
           heading={(t as any).ctaAfterEnterprise.heading}
           body={t.cta.body}
           ctaLabel={`${t.cta.label} →`}
-          ctaHref="https://linkedin.com/in/ambuj"
+          ctaHref="https://linkedin.com/in/[YOUR_HANDLE]"
           external
           secondaryLabel={`${(t.cta as any).labelSecondary} →`}
-          secondaryHref="mailto:hola@ambuj.co"
+          secondaryHref="mailto:itsambuja@gmail.com"
         />
 
         {/* ================================================================ */}
@@ -801,7 +802,7 @@ export default function JacoboAgent({ lang = 'en' }: { lang?: Lang }) {
         {/* GitHub repo link */}
         <div className="flex justify-center mb-4">
           <a
-            href="https://github.com/ambuj/jacobo-workflows"
+            href="https://github.com/AmbujaAK/jacobo-workflows"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors text-sm"
@@ -829,10 +830,10 @@ export default function JacoboAgent({ lang = 'en' }: { lang?: Lang }) {
           heading={(t as any).ctaAfterDownloads.heading}
           body=""
           ctaLabel={`${t.cta.label} →`}
-          ctaHref="https://linkedin.com/in/ambuj"
+          ctaHref="https://linkedin.com/in/[YOUR_HANDLE]"
           external
           secondaryLabel={`${(t.cta as any).labelSecondary} →`}
-          secondaryHref="mailto:hola@ambuj.co"
+          secondaryHref="mailto:itsambuja@gmail.com"
         />
 
         {/* ================================================================ */}

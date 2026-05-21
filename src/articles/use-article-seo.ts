@@ -61,7 +61,7 @@ export function useArticleSeo(opts: ArticleSeoOpts) {
 
     // Standard meta
     upsertMeta('name', 'description', description)
-    upsertMeta('name', 'author', 'Santiago Fernández de Valderrama')
+    upsertMeta('name', 'author', 'Ambuj')
     upsertMeta('name', 'robots', 'index, follow')
 
     // Open Graph
@@ -74,7 +74,7 @@ export function useArticleSeo(opts: ArticleSeoOpts) {
     upsertMeta('property', 'og:locale:alternate', lang === 'es' ? 'en_US' : 'es_ES')
     upsertMeta('property', 'article:published_time', publishedTime)
     if (modifiedTime) upsertMeta('property', 'article:modified_time', modifiedTime)
-    upsertMeta('property', 'article:author', 'https://www.linkedin.com/in/ambuj')
+    upsertMeta('property', 'article:author', 'https://www.linkedin.com/in/[YOUR_HANDLE]')
     upsertMeta('property', 'article:tag', articleTags)
     if (image) upsertMeta('property', 'og:image', image)
 
